@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  vars:
+    var_hostName: Starcenter-Terraform
+  tasks:
+    - name: Starcenter Terraform init
+      shell:
+         "cd starcenter; terraform init"
+    - name: Starcenter Terraform plan
+      shell:
+         "cd starcenter; terraform plan"
+    - name: Starcenter Terraform apply
+      shell:
+         "cd starcenter; terraform apply --auto-approve"     

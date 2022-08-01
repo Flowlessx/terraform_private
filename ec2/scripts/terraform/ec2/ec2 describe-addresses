@@ -1,0 +1,123 @@
+RESERVATIONS	910082668725	r-0e07cfeca756713f8
+INSTANCES	0	x86_64	50211A22-137B-430E-8631-9E8EB02F8A60	False	True	xen	ami-0d527b8c289b4af7f	i-05e99e45f83de87ca	t2.micro	Starcenter-key	2022-02-19T11:01:54+00:00	Linux/UNIX			/dev/sda1	ebs	User initiated (2022-02-19 11:14:43 GMT)	RunInstances	2022-02-19T11:01:54+00:00	hvm
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	pending
+MONITORING	disabled
+PLACEMENT	eu-central-1a		default
+STATE	48	terminated
+STATEREASON	Client.UserInitiatedShutdown	Client.UserInitiatedShutdown: User initiated shutdown
+TAGS	Name	Jenkins
+RESERVATIONS	910082668725	r-07831c85153cbd604
+INSTANCES	0	x86_64	E5468174-4D78-47C2-A400-3B9CA5EE0C93	False	True	xen	ami-0d527b8c289b4af7f	i-0e6fa58fa2a514d78	t2.micro	Starcenter-key	2022-02-19T11:01:54+00:00	Linux/UNIX			/dev/sda1	ebs	User initiated (2022-02-19 11:14:43 GMT)	RunInstances	2022-02-19T11:01:54+00:00	hvm
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	pending
+MONITORING	disabled
+PLACEMENT	eu-central-1a		default
+STATE	48	terminated
+STATEREASON	Client.UserInitiatedShutdown	Client.UserInitiatedShutdown: User initiated shutdown
+TAGS	Name	Tomcat-Apache
+RESERVATIONS	910082668725	r-0f08c3b6a3a5bb80d
+INSTANCES	0	x86_64	96683B48-312C-42DF-B2CE-B9368041C7CF	False	True	xen	ami-0d527b8c289b4af7f	i-0e40ce1e7db28ff3a	t2.micro	Starcenter-key	2022-02-19T10:56:54+00:00	Linux/UNIX			/dev/sda1	ebs	User initiated (2022-02-19 11:01:53 GMT)	RunInstances	2022-02-19T10:56:54+00:00	hvm
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	pending
+MONITORING	disabled
+PLACEMENT	eu-central-1a		default
+STATE	48	terminated
+STATEREASON	Client.UserInitiatedShutdown	Client.UserInitiatedShutdown: User initiated shutdown
+TAGS	Name	Ec2-with-VPC
+RESERVATIONS	910082668725	r-0d93be381edcc6165
+INSTANCES	0	x86_64	E4BC3B28-2A0D-4093-A621-02E122ECECAD	False	True	xen	ami-0d527b8c289b4af7f	i-0fe109ae51f4ff0b6	t2.micro	Starcenter-key	2022-02-19T11:01:54+00:00	Linux/UNIX			/dev/sda1	ebs	User initiated (2022-02-19 11:14:43 GMT)	RunInstances	2022-02-19T11:01:54+00:00	hvm
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	pending
+MONITORING	disabled
+PLACEMENT	eu-central-1a		default
+STATE	48	terminated
+STATEREASON	Client.UserInitiatedShutdown	Client.UserInitiatedShutdown: User initiated shutdown
+TAGS	Name	Terraform
+RESERVATIONS	910082668725	r-0e72a97dccdeffe14
+INSTANCES	0	x86_64	A1251A67-2E77-4A82-BBAE-250F639542CD	False	True	xen	ami-0d527b8c289b4af7f	i-0e6ed94ae6c58fe1d	t2.micro	Starcenter-key	2022-02-19T10:00:11+00:00	Linux/UNIX			/dev/sda1	ebs	User initiated (2022-02-19 10:54:59 GMT)	RunInstances	2022-02-19T10:00:11+00:00	hvm
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	pending
+MONITORING	disabled
+PLACEMENT	eu-central-1b		default
+STATE	48	terminated
+STATEREASON	Client.UserInitiatedShutdown	Client.UserInitiatedShutdown: User initiated shutdown
+TAGS	Name	Ec2-with-VPC
+RESERVATIONS	910082668725	r-0ef12e28ef6855bd2
+INSTANCES	0	x86_64	7EDE62D7-3C6F-4069-9519-7FA48FC9FBD4	False	True	xen	ami-0d527b8c289b4af7f	i-0a7853a31fc320e66	t2.micro	Starcenter-key	2022-02-19T11:24:28+00:00	Linux/UNIX	ip-10-0-1-249.eu-central-1.compute.internal	10.0.1.249	ec2-3-120-250-0.eu-central-1.compute.amazonaws.com	3.120.250.0	/dev/sda1	ebs	True		subnet-05d456f3261b84b0e	RunInstances	2022-02-19T11:24:28+00:00	hvm	vpc-01c403dcc8162c7ed
+BLOCKDEVICEMAPPINGS	/dev/sda1
+EBS	2022-02-19T11:24:29+00:00	True	attached	vol-036722bd6b6113131
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	applied
+MONITORING	disabled
+NETWORKINTERFACES		interface	0a:7f:9e:e2:62:3c	eni-0a3fe4b43e7b8a453	910082668725	ip-10-0-1-249.eu-central-1.compute.internal	10.0.1.249	True	in-use	subnet-05d456f3261b84b0e	vpc-01c403dcc8162c7ed
+ASSOCIATION	amazon	ec2-3-120-250-0.eu-central-1.compute.amazonaws.com	3.120.250.0
+ATTACHMENT	2022-02-19T11:24:28+00:00	eni-attach-095f75cd13a33a64f	True	0	0	attached
+GROUPS	sg-014920e753591b9f2	allow_SSH
+PRIVATEIPADDRESSES	True	ip-10-0-1-249.eu-central-1.compute.internal	10.0.1.249
+ASSOCIATION	amazon	ec2-3-120-250-0.eu-central-1.compute.amazonaws.com	3.120.250.0
+PLACEMENT	eu-central-1c		default
+PRIVATEDNSNAMEOPTIONS	False	False	ip-name
+SECURITYGROUPS	sg-014920e753591b9f2	allow_SSH
+STATE	16	running
+TAGS	Name	Jenkins
+RESERVATIONS	910082668725	r-01b418a7080ddbadd
+INSTANCES	0	x86_64	CF4CCC26-B012-4829-9DA8-BD9036792E16	False	True	xen	ami-0d527b8c289b4af7f	i-0fa4cf379dd9b46a8	t2.micro	Starcenter-key	2022-02-19T11:24:28+00:00	Linux/UNIX	ip-10-0-1-236.eu-central-1.compute.internal	10.0.1.236	ec2-3-71-105-2.eu-central-1.compute.amazonaws.com	3.71.105.2	/dev/sda1	ebs	True		subnet-05d456f3261b84b0e	RunInstances	2022-02-19T11:24:28+00:00	hvm	vpc-01c403dcc8162c7ed
+BLOCKDEVICEMAPPINGS	/dev/sda1
+EBS	2022-02-19T11:24:28+00:00	True	attached	vol-05a3c6625432730d6
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	applied
+MONITORING	disabled
+NETWORKINTERFACES		interface	0a:5a:12:eb:7c:3a	eni-01bfed9e6c0737ceb	910082668725	ip-10-0-1-236.eu-central-1.compute.internal	10.0.1.236	True	in-use	subnet-05d456f3261b84b0e	vpc-01c403dcc8162c7ed
+ASSOCIATION	amazon	ec2-3-71-105-2.eu-central-1.compute.amazonaws.com	3.71.105.2
+ATTACHMENT	2022-02-19T11:24:28+00:00	eni-attach-04499897be9e850da	True	0	0	attached
+GROUPS	sg-014920e753591b9f2	allow_SSH
+PRIVATEIPADDRESSES	True	ip-10-0-1-236.eu-central-1.compute.internal	10.0.1.236
+ASSOCIATION	amazon	ec2-3-71-105-2.eu-central-1.compute.amazonaws.com	3.71.105.2
+PLACEMENT	eu-central-1c		default
+PRIVATEDNSNAMEOPTIONS	False	False	ip-name
+SECURITYGROUPS	sg-014920e753591b9f2	allow_SSH
+STATE	16	running
+TAGS	Name	Terraform
+RESERVATIONS	910082668725	r-00a12114e4b123c07
+INSTANCES	0	x86_64	2898BEAD-03AF-4194-8817-FFCECB7F76E9	False	True	xen	ami-0d527b8c289b4af7f	i-0b73c2d6ec5244d71	t2.micro	Starcenter-key	2022-02-19T11:24:28+00:00	Linux/UNIX	ip-10-0-1-158.eu-central-1.compute.internal	10.0.1.158	ec2-3-71-72-45.eu-central-1.compute.amazonaws.com	3.71.72.45	/dev/sda1	ebs	True		subnet-05d456f3261b84b0e	RunInstances	2022-02-19T11:24:28+00:00	hvm	vpc-01c403dcc8162c7ed
+BLOCKDEVICEMAPPINGS	/dev/sda1
+EBS	2022-02-19T11:24:28+00:00	True	attached	vol-05969092704171dc6
+CAPACITYRESERVATIONSPECIFICATION	open
+CPUOPTIONS	1	1
+ENCLAVEOPTIONS	False
+HIBERNATIONOPTIONS	False
+METADATAOPTIONS	enabled	disabled	1	optional	disabled	applied
+MONITORING	disabled
+NETWORKINTERFACES		interface	0a:fd:f4:95:eb:02	eni-0d0dbff9c897b3102	910082668725	ip-10-0-1-158.eu-central-1.compute.internal	10.0.1.158	True	in-use	subnet-05d456f3261b84b0e	vpc-01c403dcc8162c7ed
+ASSOCIATION	amazon	ec2-3-71-72-45.eu-central-1.compute.amazonaws.com	3.71.72.45
+ATTACHMENT	2022-02-19T11:24:28+00:00	eni-attach-0d064519a2f3f232f	True	0	0	attached
+GROUPS	sg-014920e753591b9f2	allow_SSH
+PRIVATEIPADDRESSES	True	ip-10-0-1-158.eu-central-1.compute.internal	10.0.1.158
+ASSOCIATION	amazon	ec2-3-71-72-45.eu-central-1.compute.amazonaws.com	3.71.72.45
+PLACEMENT	eu-central-1c		default
+PRIVATEDNSNAMEOPTIONS	False	False	ip-name
+SECURITYGROUPS	sg-014920e753591b9f2	allow_SSH
+STATE	16	running
+TAGS	Name	Tomcat-Apache

@@ -1,0 +1,15 @@
+{
+	"Django StarCenter layout extender": {
+		"prefix": "djsclayout",
+		"body": [
+			"{% extends \"Dashboard/layout.html\" %}",
+			"{% block title %}",
+			"$0",
+			"{% endblock %}",
+			"{% block content %}",
+			"{% endblock %}"
+		],
+	
+		"description": "Boilerplate template that extends layout.html"
+	}
+}

@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  vars:
+    var_hostName: AIM-Terraform
+  tasks:
+    - name: Terraform init
+      shell:
+         "cd AIM; terraform init"
+    - name: Terraform plan
+      shell:
+         "cd AIM; terraform plan"
+    - name: Terraform apply
+      shell:
+         "cd AIM; terraform apply --auto-approve"     

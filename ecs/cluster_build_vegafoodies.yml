@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  vars:
+    var_hostName: Vegafoodies-Terraform
+  tasks:
+    - name: Vegafoodies Terraform init
+      shell:
+         "cd vegafoodies; terraform init"
+    - name: Vegafoodies Terraform plan
+      shell:
+         "cd vegafoodies; terraform plan"
+    - name: Vegafoodies Terraform apply
+      shell:
+         "cd vegafoodies; terraform apply --auto-approve"     
